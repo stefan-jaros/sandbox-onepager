@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welt-ETF für Schweizer Anleger</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1117;
+      --panel: #161b22;
+      --accent: #58a6ff;
+      --text: #e6edf3;
+      --muted: #9ba3af;
+      --border: #252b36;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      letter-spacing: 0.01em;
+    }
+    header {
+      padding: 64px 22px 48px;
+      text-align: center;
+      background: linear-gradient(135deg, rgba(88,166,255,0.18), rgba(88,166,255,0.05));
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+    }
+    header p {
+      margin: 0 auto;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 32px 22px 72px;
+      display: grid;
+      gap: 22px;
+    }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+    section h2 {
+      margin-top: 0;
+      color: var(--accent);
+      font-size: 1.4rem;
+    }
+    .grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      height: 100%;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 10px 0 0;
+    }
+    li { margin-bottom: 10px; }
+    img {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      display: block;
+      object-fit: cover;
+      max-height: 280px;
+    }
+    .disclaimer {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welt-ETF für Schweizer Anleger</h1>
+    <p>Ein einfacher Überblick, wie ein globaler Exchange Traded Fund funktioniert, was Schweizer Anleger beachten sollten und welche Chancen sowie Risiken bestehen.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Was ist ein Welt-ETF?</h2>
+      <p>Ein Welt-ETF bündelt Aktien aus vielen Ländern und Branchen in einem einzigen börsengehandelten Fonds. Er bildet meist einen breiten Index wie den MSCI World oder FTSE All-World nach. Dadurch reicht eine einzige Investition, um an tausenden Unternehmen beteiligt zu sein.</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Besonderheiten für Schweizer Anleger</h2>
+        <ul>
+          <li>Währung: Viele Welt-ETFs sind in USD notiert. Kursschwankungen zwischen CHF und USD können den Ertrag beeinflussen.</li>
+          <li>Steuern: In der Schweiz sind Kapitalgewinne in der Regel steuerfrei, Dividenden jedoch nicht. Quellensteuer des Fondslands beachten.</li>
+          <li>Domizil: Irland-domizilierte ETFs sind verbreitet und bieten oft günstige Steuerabkommen.</li>
+          <li>Brokerwahl: Auf Handelsgebühren, Währungswechselkosten und Stempelsteuer achten.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80" alt="Grafik mit globalen Märkten">
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Vorteile</h2>
+        <ul>
+          <li>Breite Diversifikation über Länder, Branchen und Unternehmen.</li>
+          <li>Niedrige Kosten im Vergleich zu aktiv verwalteten Fonds.</li>
+          <li>Einfache Handelbarkeit an der Börse mit transparenten Preisen.</li>
+          <li>Automatische Replikation des Index ohne Stock-Picking.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Risiken</h2>
+        <ul>
+          <li>Marktrisiko: Fällt der globale Aktienmarkt, sinkt auch der ETF.</li>
+          <li>Währungsrisiko: CHF kann gegenüber USD oder EUR schwanken.</li>
+          <li>Tracking-Differenz: Kosten und Replikationsmethode führen zu Abweichungen vom Index.</li>
+          <li>Liquidität: Bei Stressphasen können Spreads kurzfristig steigen.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80" alt="Schweizer Landschaft mit Bergen">
+      </div>
+      <div class="card">
+        <h2>Nächste Schritte</h2>
+        <ul>
+          <li>Grundlagen verstehen: Wie funktioniert ein ETF und welche Indexanbieter gibt es?</li>
+          <li>Kosten vergleichen: TER, Handelsgebühren, Währungstausch.</li>
+          <li>Depot wählen: Schweizer oder internationaler Broker, Stempelsteuer prüfen.</li>
+          <li>Regelmäßig investieren: Mit Sparplan oder periodischen Käufen diszipliniert bleiben.</li>
+          <li>Langfristig denken: Welt-ETFs sind für mehrjährige Anlagehorizonte gedacht.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="disclaimer">
+      <h2>Haftungsausschluss</h2>
+      <p>Diese Seite stellt keine Anlageberatung dar und ersetzt keine persönliche Beratung. Anlagen in ETFs unterliegen Risiken bis hin zum vollständigen Verlust des eingesetzten Kapitals. Prüfe die steuerlichen und rechtlichen Auswirkungen in deiner Situation und informiere dich vor einer Investition gründlich.</p>
+    </section>
+  </main>
+</body>
+</html>
